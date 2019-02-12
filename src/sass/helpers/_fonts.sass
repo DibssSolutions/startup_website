@@ -5,3 +5,32 @@
 	font-family: $name
 	font-style: $style
 	font-weight: $weight
+
+
+$familyGeometria: 'Geometria'
+$familyLora: 'Lora'
+
+=geometria
+	font-family: 'Geometria', Arial, -apple-system, BlinkMacSystemFont, 'Oxygen', sans-serif
+=lora
+	font-family: 'Lora', Arial, -apple-system, BlinkMacSystemFont, 'Oxygen', sans-serif
+
+	//LORA
+	
+@font-face
+	+fontdefault(normal, 700, $familyLora)
+	+fontpath('Lora Bold', 'lora-bold', Circe-Regular)
+
+    //Geometria
+    
+@font-face
+	+fontdefault(normal, 300, $familyGeometria)
+	+fontpath('Geometria Light', 'geometria-light', Geometria-Light)
+
+@font-face
+	+fontdefault(normal, 400, $familyGeometria)
+	+fontpath('Geometria', 'geometria', Geometria-Light)
+
+@font-face
+	+fontdefault(normal, 400, $familyGeometria)
+	+fontpath('Geometria Bold', 'geometria-bold', Geometria-Bold)

@@ -1,4 +1,25 @@
-body
-	background: #FFF
-	line-height: 1.4
+html
+	scroll-behavior: smooth
 
+body
+  background-color: $white
+  line-height: 1
+  +geometria
+  font-weight: 400
+  font-size: 14px
+  color: $black
+  min-width: 320px
+  margin: 0
+  padding: 0
+  border: 0
+  +smooth-font
+
+  a
+	text-decoration: none
+	color: currentColor
+	&:hover
+		text-decoration: none
+
+.out
+	overflow: hidden
+	position: relative
