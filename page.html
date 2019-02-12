@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Index page</title>
+    <title>Start UP</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#fff">
@@ -14,48 +14,118 @@
   <body>
     <!-- BEGIN content -->
     <div class="out">
-      <h1>Index page</h1>
-      <p>Hello from partials/_header.html</p>
-      <svg class="icon icon-facebook">
-        <use xlink:href="img/sprite.svg#icon-facebook"></use>
-      </svg>
-      <p>
-        <!-- begin input -->
-        <label class="checkbox">
-          <input type="checkbox" name="checkbox">
-          <span class="checkbox__text">checkbox</span>
-        </label>
-        <!-- end input -->
-      </p>
-      <p>
-        <!-- begin input -->
-        <label class="checkbox">
-          <input type="checkbox" name="exemple-name" checked>
-          <span class="checkbox__text">checkbox-checked</span>
-        </label>
-        <!-- end input -->
-      </p>
-      <!-- begin input -->
-      <label class="radio">
-        <input type="radio" name="exemple-name">
-        <span class="radio__text">text</span>
-      </label>
-      <!-- end input -->
-      <!-- begin breadcrumbs -->
-      <ul class="breadcrumbs">
-        <li class="breadcrumbs__item">
-          <a href="#">Главная</a>
-        </li>
-        <li class="breadcrumbs__item">
-          <a href="#">Внутренняя</a>
-        </li>
-        <li class="breadcrumbs__item">
-          <span>Корзина</span>
-        </li>
-      </ul>
-      <!-- end breadcrumbs -->
-      <li>Item1</li>
-      <li>Item2</li>
+      <header class="header">
+        <div class="header__inner inner">
+          <div class="header__left">
+            <a href="#" class="header__logo logo">МТ</a>
+            <div class="header__text">
+              <h1 class="header__title title title_main">МоиТаланты</h1>
+              <p>Определение талантов и сильных сторон</p>
+            </div>
+          </div>
+          <div class="header__right">
+            <a href="tel:+7 495 720-25-17" class="header__tel">+7 495 720-25-17</a>
+            <div class="header__btn">
+              <button type="button" class="btn btn_s">Заказать звонок</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="hero">
+        <div class="hero__inner inner">
+          <div class="hero__left">
+            <h2 class="hero__title title title_lg">Узнай свои <span>таланты</span> и найди <span>дело</span> жизни!</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id officia perferendis aliquam assumenda repudiandae autem molestiae nulla maxime? Itaque modi eius similique officiis, illo assumenda debitis perferendis odio autem tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, impedit.</p>
+            <div class="hero__btn">
+              <button class="btn btn_lg">Попробовать бесплатно</button>
+            </div>
+          </div>
+          <div class="hero__right" style="background-image: url(img/pond.png)">
+            <p>Все мы гении. Но если вы будете судить рыбу по её способности взбираться на дерево, она проживёт всю жизнь, считая себя дурой.</p>
+            <div class="hero__caption">Альберт Энштейн.</div>
+          </div>
+        </div>
+      </section>
+      <section class="complex">
+        <div class="complex__inner inner">
+          <div class="complex__subtitle subtitle">что мы предоставляем</div>
+          <h3 class="complex__title title title_md">Комплекс <span>упражнений</span></h3>
+          <div class="complex__descr">
+            <p>Система искусственного интеллекта выберет наиболее подходящие для Вас упражнения, проконтролирует их выполнение и выдаст всю информацию по поиску дела жизни</p>
+          </div>
+          <ul class="complex__list">
+            <li class="complex__item">
+              <div class="exercise">
+                <div class="exercise__img" style="background-image: url(img/icon-bg.png)">
+                  <img src="img/analysis (1).png" alt="icon">
+                </div>
+                <div class="exercise__text">
+                  <h4 class="exercise__title title_sm">Анализ мнений друзей и знакомых</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe totam ex laborum sequi quia eaque.</p>
+                </div>
+              </div>
+            </li>
+            <li class="complex__item">
+              <div class="exercise">
+                <div class="exercise__img" style="background-image: url(img/icon-bg.png)">
+                  <img src="img/sleep.png" alt="icon">
+                </div>
+                <div class="exercise__text">
+                  <h4 class="exercise__title title_sm">Упражнение “Мечты предков”</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe totam ex laborum sequi quia eaque.</p>
+                </div>
+              </div>
+            </li>
+            <li class="complex__item">
+              <div class="exercise">
+                <div class="exercise__img" style="background-image: url(img/icon-bg.png)">
+                  <img src="img/analysis.png" alt="icon">
+                </div>
+                <div class="exercise__text">
+                  <h4 class="exercise__title title_sm">Комплексный анализ историй успехов</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe totam ex laborum sequi quia eaque.</p>
+                </div>
+              </div>
+            </li>
+            <li class="complex__item">
+              <div class="exercise">
+                <div class="exercise__img" style="background-image: url(img/icon-bg.png)">
+                  <img src="img/yoga.png" alt="icon">
+                </div>
+                <div class="exercise__text">
+                  <h4 class="exercise__title title_sm">Состояние потока</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe totam ex laborum sequi quia eaque.</p>
+                </div>
+              </div>
+            </li>
+            <li class="complex__item">
+              <div class="exercise">
+                <div class="exercise__img" style="background-image: url(img/icon-bg.png)">
+                  <img src="img/feedback.png" alt="icon">
+                </div>
+                <div class="exercise__text">
+                  <h4 class="exercise__title title_sm">Соционический профиль</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe totam ex laborum sequi quia eaque.</p>
+                </div>
+              </div>
+            </li>
+            <li class="complex__item">
+              <div class="exercise">
+                <div class="exercise__img" style="background-image: url(img/icon-bg.png)">
+                  <img src="img/theatre.png" alt="icon">
+                </div>
+                <div class="exercise__text">
+                  <h4 class="exercise__title title_sm">Работа с эмоциями и бессознательным</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe totam ex laborum sequi quia eaque.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="complex__btn">
+            <button type="button" class="btn btn_lg btn_orange">Попробовать одно упражнение бесплатно</button>
+          </div>
+        </div>
+      </section>
     </div>
     <!-- END content -->
     <!-- BEGIN scripts -->
