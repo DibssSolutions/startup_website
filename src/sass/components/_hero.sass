@@ -3,15 +3,27 @@
     line-height: 2
     padding: 46px 0
     line-height: 1.5
+    +lg
+        padding: 30px 0
+        font-size: 14px
+    +md
+        padding: 20px 0
     &__inner
         display: flex
         justify-content: space-between
+        +md
+            flex-wrap: wrap
     &__left
         // max-width: 590px
         width: 50%
         padding-right: 50px
+        +md
+            width: 100%
+            padding: 0 0 40px
         p
             margin-top: 22px
+            +sm
+                margin-top: 15px
     &__title
         span
             color: $accent
@@ -19,6 +31,12 @@
         margin-top: 65px
         button
             min-width: 265px
+        +lg
+            margin-top: 40px
+        +md
+            text-align: center
+        +sm
+            margin-top: 20px
     &__right
         // max-width: 570px
         width: 50%
@@ -27,10 +45,27 @@
         background-size: contain
         padding-left: 270px
         padding-bottom: 20px
+        +lg
+            padding-left: 250px
+            padding-bottom: 140px
+        +md
+            width: 100%
+            background-size: 560px 360px
+            padding-left: 270px
+            padding-bottom: 280px
+        +xs
+            padding-left: 123px
+            padding-bottom: 90px
+            background-size: 255px 180px
+            background-position: bottom left
         p
             font-size: 20px
             // max-width: 310px
             // margin-left: auto
+            +lg
+                font-size: 16px
+            +xs
+                font-size: 14px
     &__caption
         color: $accent
         text-align: right

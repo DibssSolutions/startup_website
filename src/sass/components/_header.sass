@@ -1,23 +1,48 @@
 .header
     padding: 70px 0
+    +lg
+        padding: 40px 0
+    +sm
+        padding: 20px 0
     &__inner
         display: flex
         justify-content: space-between
         align-items: center
+        +sm
+            flex-wrap: wrap
     &__logo
         margin-right: 28px
+        +md
+            margin-right: 16px
     &__left
         display: flex
         align-items: center
         padding-right: 30px
+        +sm
+            // width: 100%
+            // padding-bottom: 30px
+            padding: 0
+            font-size: 0
     &__right
         display: flex
         align-items: center
         padding-left: 30px
+        +sm
+            // width: 100%
+            flex-direction: column
+            // margin-left: auto
+            // margin-top: 20px
+            // justify-content: flex-end
     &__tel
         +f(18px, 700)
+        +md
+            font-size: 14px
+        +sm
+            padding-bottom: 3px
     &__btn
         margin-left: 15px
+        +sm
+            margin: 0
 
 
 .logo
@@ -32,3 +57,9 @@
     line-height: 68px
     +f(24px, 700)
     color: $white
+    +md
+        width: 54px
+        height: 54px
+        font-size: 20px
+        line-height: 54px
+        flex-shrink: 0
