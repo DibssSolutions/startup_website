@@ -10,18 +10,13 @@
 $familyGeometria: 'Geometria'
 $familyLora: 'Lora'
 
-=geometria
-	font-family: 'Geometria', Arial, -apple-system, BlinkMacSystemFont, 'Oxygen', sans-serif
-=lora
-	font-family: 'Lora', Arial, -apple-system, BlinkMacSystemFont, 'Oxygen', sans-serif
-
-	//LORA
+//LORA
 	
 @font-face
 	+fontdefault(normal, 700, $familyLora)
-	+fontpath('Lora Bold', 'lora-bold', Circe-Regular)
+	+fontpath('Lora Bold', 'lora-bold', Lora-Bold)
 
-    //Geometria
+//Geometria
     
 @font-face
 	+fontdefault(normal, 300, $familyGeometria)
@@ -29,8 +24,8 @@ $familyLora: 'Lora'
 
 @font-face
 	+fontdefault(normal, 400, $familyGeometria)
-	+fontpath('Geometria', 'geometria', Geometria-Light)
+	+fontpath('Geometria', 'geometria', Geometria)
 
 @font-face
-	+fontdefault(normal, 400, $familyGeometria)
+	+fontdefault(normal, 700, $familyGeometria)
 	+fontpath('Geometria Bold', 'geometria-bold', Geometria-Bold)

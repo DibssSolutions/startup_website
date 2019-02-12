@@ -1,0 +1,21 @@
+.title
+    +geometria
+    font-weight: 700
+    color: $black
+    &_main
+        font-size: 20px
+        line-height: 1.2
+    &_lg
+        font-size: 48px
+        line-height: 1.25
+    &_md
+        +f(30px, 400)
+        span
+            font-weight: 700
+    &_sm
+        +f(18px, 700, 1.33)
+        color: $accent
+.subtitle
+    +f(14px, 300)
+    color: $accent
+    text-transform: uppercase
